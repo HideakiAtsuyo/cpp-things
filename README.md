@@ -53,3 +53,21 @@ $$ |  $$ |$$$$$$$  |\$$$$$$$\ $$ |$$ |
 ## For curl
 
 `Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;`
+
+<br>
+=================================================================<br>
+
+## See your exe name
+
+```cpp
+#include <iostream>
+#include <boost/dll.hpp> //Debug&Release => Only x86
+#include <windows.h>
+
+void main() {
+    SetConsoleOutputCP(CP_UTF8);
+    std::string name = boost::dll::program_location().filename().string();
+	std::cout << name << std::endl;
+    system("pause");
+}
+```
