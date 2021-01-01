@@ -71,3 +71,15 @@ void main() {
     system("pause");
 }
 ```
+<br>
+=================================================================<br>
+
+## Check the content of a string
+
+```cpp
+std::string a = "Dick Head";
+if (a.find("Head") != std::string::npos) {
+std::cout << "Found" << std::endl;
+} else {
+std::cout << "Not Found" << std::endl;
+}```
