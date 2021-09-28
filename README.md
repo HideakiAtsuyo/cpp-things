@@ -50,9 +50,9 @@ $$ |  $$ |$$$$$$$  |\$$$$$$$\ $$ |$$ |
 <br>
 =================================================================<br>
 
-## For curl
+## Fuck Curl => CPR ("Curl Wrapper") is better
 
-`Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;`
+[CPR](https://github.com/libcpr/cpr)
 
 <br>
 =================================================================<br>
