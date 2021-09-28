@@ -82,4 +82,20 @@ if (a.find("Head") != std::string::npos) {
 std::cout << "Found" << std::endl;
 } else {
 std::cout << "Not Found" << std::endl;
-}```
+}
+```
+
+<br>
+=================================================================<br>
+
+# Get Screen Size
+
+```cpp
+#include <iostream>
+#include <Windows.h>
+
+int main()
+{
+    std::cout << "Hello World!\n" << GetSystemMetrics(SM_CXSCREEN) << "x" << GetSystemMetrics(SM_CYSCREEN) << std::endl;
+}
+```
